@@ -193,7 +193,12 @@ test('datepicker', async ({page}) => {
     await page.locator('[class="day-cell ng-star-inserted"]').getByText(expectedDate, {exact: true}).click()
     expect(await calendarInputField).toHaveValue(dateToAssert)
 })
+test('slider', async ({page}) => {
 
+    
+
+
+})
 
 
 
